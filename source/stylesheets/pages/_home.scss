@@ -8,11 +8,12 @@
 .constellation {
     // padding: 40px;
     opacity: 0;
+    transition-duration: 0.5s;
 }
 
 .constellation:hover {
     opacity: 1;
-    transition-duration: 1s;
+    transition-duration: 2s;
 }
 
 #one {
@@ -32,3 +33,21 @@
     top: 120px;
     left: 800px;
 }
+
+#circle {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    // height: 35px;
+    // width: 35px;
+    // border-radius: 50%;
+    // border: 2px solid white;
+    img {
+        height: 100px;
+        z-index: 20;
+    }
+}
+
+#dancing {
+    display: none;
+}
+
