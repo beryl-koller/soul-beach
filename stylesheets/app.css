@@ -8036,11 +8036,12 @@ button.close {
   position: relative; }
 
 .constellation {
-  opacity: 0; }
+  opacity: 0;
+  transition-duration: 0.5s; }
 
 .constellation:hover {
   opacity: 1;
-  transition-duration: 1s; }
+  transition-duration: 2s; }
 
 #one {
   position: absolute;
@@ -8056,6 +8057,16 @@ button.close {
   position: absolute;
   top: 120px;
   left: 800px; }
+
+#circle {
+  position: absolute;
+  transform: translate(-50%, -50%); }
+  #circle img {
+    height: 100px;
+    z-index: 20; }
+
+#dancing {
+  display: none; }
 
 /*
 ==============================================
